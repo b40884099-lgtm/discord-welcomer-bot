@@ -74,8 +74,8 @@ client.on('guildMemberAdd', async member => {
             { name: 'Invited By', value: inviterMention, inline: true },
             { name: 'Invite Used', value: usedInvite ? `||${usedInvite.code}||` : 'Direct Join', inline: true },
             { name: 'You\'re Member', value: `${member.guild.memberCount}`, inline: true },
-            { name: 'Server Rules', value: '<#1164662648080707604>.', inline: true },
-            { name: 'Support Channel', value: '<#1166772582951964702>.', inline: true }
+            { name: ' Rules', value: '<#1451991539101208596>.', inline: true },
+            { name: '𝖢𝗁𝖺𝗍', value: '<#1451953923110731971>.', inline: true }
         )
         .setThumbnail(member.user.displayAvatarURL())
         .setTimestamp();
@@ -89,9 +89,9 @@ client.on('guildMemberAdd', async member => {
         .addComponents(
             new MessageButton()
                 .setStyle('LINK')
-                .setURL('https://www.youtube.com/@wick_studio')       // link to button 1
-                .setLabel('YouTube')                                 // name of button 1
-                .setEmoji('<:Youtubee:1158819353953828984>'),       // emoji of button 1
+                .setURL('https://www.tiktok.com/@out_city_1?_r=1&_t=ZS-92r2uJr38XV')       // link to button 1
+                .setLabel('TikTok')                                 // name of button 1
+                .setEmoji('<:tiktokk:1418372666594689114> '),       // emoji of button 1
             new MessageButton()
                 .setStyle('LINK')
                 .setURL('https://github.com/wickstudio')           // link to button 2
@@ -110,3 +110,4 @@ client.on('guildMemberAdd', async member => {
 });
 
 client.login(config.botToken);
+
